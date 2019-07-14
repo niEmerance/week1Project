@@ -31,8 +31,21 @@
     font-size: 20px;
 }
 #navbars nav a{
+    display: block;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255,20,147);
+}
+#navbars nav a:hover{
+    background-color:  rgb(255,20,147);
+    color: white;
+}
+#navbars nav{
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
-    color: rgb(255,20,147);
+    flex-direction: rows;padding: 20px;
+    margin-right: 25px;
 }
