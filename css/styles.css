@@ -53,6 +53,7 @@
 .about{
     display: flex;
     flex-direction: row;
+    background-color: rgb(0,0,0, 0.2);
 }
 #aboutB h2{
     font-weight: bold;
@@ -99,9 +100,6 @@
 .apps table{
     margin-left: 200px;
 }
-.apps table tr td{
-    padding: 2px;
-}
 .apps table tr td h6{
     margin-top: 2px;
     text-align: center;
@@ -120,3 +118,23 @@
     background-color: black;
     color: white;
 }
+#contacts{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 180px;
+    
+
+}
+.contactscontainer{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(0,0,0, 0.2);
+}
+.footer{
+    font-family: arial;
+    font-weight: normal;
+    background-color: rgba(0,0,0, 0.8);
+    color: rgba(204,204,204, 0.5);
+    text-align: center;
+  }
