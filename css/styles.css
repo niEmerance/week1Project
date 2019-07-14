@@ -1,18 +1,20 @@
-*{
-    margin:0px;
-    padding:0px;
-  }
-.main{
-    background: linear-gradient(
-        rgba(0,0,0, 0.5),
-        rgba(0,0,0, 0.5)),
-        url("../images/startup.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
+@media screen and (min-width: 300px){
+    .main{
+        background: linear-gradient(
+            rgba(0,0,0, 0.5),
+            rgba(0,0,0, 0.5)),
+            url("../images/startup.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
 }
-.main a{
-    
+@media screen and (min-width: 368px){
+    .about{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(0,0,0, 0.2);
+    }
 }
 #indexA{
       float: right;
@@ -25,7 +27,9 @@
     color: rgb(255,255,255);
 }
 #indexA h2{
+    font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
+    font-size:25px;
     color: white;
 }
 #indexA a{
@@ -34,8 +38,9 @@
     border-radius: 50px;
     cursor: pointer;
     background-color: rgb(255,20,147);
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    font-weight: bold;
     padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
@@ -61,11 +66,7 @@
     /* padding: 20px; */
     margin-right: 25px;
 }
-.about{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(0,0,0, 0.2);
-}
+
 #aboutB h2{
     font-weight: bold;
     color: rgb(0,0,0, 0.8);
