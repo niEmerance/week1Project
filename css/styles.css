@@ -90,3 +90,33 @@
     font-weight: bold;
     color:rgb(199, 112, 158);
 }
+.apps{
+    background-color: rgb(0,0,0, 0.2);
+}
+.apps h1{
+    text-align: center;
+}
+.apps table{
+    margin-left: 200px;
+}
+.apps table tr td{
+    padding: 2px;
+}
+.apps table tr td h6{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+.apps table tr td p{
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+.apps table tr td a{
+    margin-left: 350px;
+    font-size: 150x;
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
