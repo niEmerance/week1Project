@@ -9,7 +9,7 @@
         height: 800px;
     }
 }
-@media screen and (min-width: 368px){
+@media screen and (min-width: 300px){
     .about{
         display: flex;
         flex-direction: row;
