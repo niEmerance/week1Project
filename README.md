@@ -24,7 +24,7 @@ to every one who wants to know about me about my technical skills.
 
 ## link to live site on GitHub Pages
 
-[My first website](https://niemerance.github.io/my-first-website/)
+[First website](https://niemerance.github.io/my-first-website/)
 
 This project is licensed under the terms of Emerance Niyomufasha
 
